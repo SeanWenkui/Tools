@@ -2,6 +2,7 @@
     ========================================
 This package contains some usful tools in daily work
 The version is 1.0
+The author is Bill
 '''
 
 def echo(line,reflect=False):
@@ -41,3 +42,6 @@ def mean(*numbers):
     for x in numbers:
         result += x
     return result/len(numbers)
+
+def is_times(number, times):
+    return number % times == 0   
